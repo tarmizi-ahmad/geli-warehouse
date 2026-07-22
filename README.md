@@ -285,7 +285,7 @@ Password
 Clone repository
 
 ```
-git clone <repository-url>
+git clone https://github.com/tarmizi-ahmad/geli-warehouse.git
 ```
 
 Go to project
