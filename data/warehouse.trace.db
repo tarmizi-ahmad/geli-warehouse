@@ -1,0 +1,21 @@
+2026-07-22 13:18:36.426286Z jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEMS" not found (this database is empty); SQL statement:
+SELECT * FROM ITEMS [42104-240]
+2026-07-22 13:18:36.432236Z jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEMS" not found (this database is empty); SQL statement:
+SELECT * FROM ITEMS [42104-240]
+2026-07-22 13:18:36.424664Z jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEMS" not found (this database is empty); SQL statement:
+SELECT * FROM ITEMS [42104-240]
+2026-07-22 13:18:36.448241Z jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEMS" not found (this database is empty); SQL statement:
+SELECT * FROM ITEMS [42104-240]
+2026-07-22 13:18:36.451973Z jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEMS" not found (this database is empty); SQL statement:
+SELECT * FROM ITEMS [42104-240]
+2026-07-22 13:18:36.425137Z jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEMS" not found (this database is empty); SQL statement:
+SELECT * FROM ITEMS [42104-240]
+2026-07-22 13:18:36.425733Z jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEMS" not found (this database is empty); SQL statement:
+SELECT * FROM ITEMS [42104-240]
