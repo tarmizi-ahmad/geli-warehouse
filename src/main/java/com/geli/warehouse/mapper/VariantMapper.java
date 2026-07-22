@@ -2,13 +2,12 @@ package com.geli.warehouse.mapper;
 
 import com.geli.warehouse.dto.response.VariantResponse;
 import com.geli.warehouse.entity.Variant;
+import org.springframework.stereotype.Component;
 
-public final class VariantMapper {
+@Component
+public class VariantMapper {
 
-    private VariantMapper() {
-    }
-
-    public static VariantResponse toResponse(Variant variant) {
+    public VariantResponse toResponse(Variant variant) {
 
         VariantResponse response = new VariantResponse();
 
@@ -23,5 +22,4 @@ public final class VariantMapper {
 
         return response;
     }
-
 }

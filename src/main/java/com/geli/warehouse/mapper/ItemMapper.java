@@ -2,15 +2,20 @@ package com.geli.warehouse.mapper;
 
 import com.geli.warehouse.dto.response.ItemResponse;
 import com.geli.warehouse.entity.Item;
+import org.springframework.stereotype.Component;
 
 import java.util.stream.Collectors;
 
-public final class ItemMapper {
+@Component
+public class ItemMapper {
 
-    private ItemMapper() {
+    private final VariantMapper variantMapper;
+
+    public ItemMapper(VariantMapper variantMapper) {
+        this.variantMapper = variantMapper;
     }
 
-    public static ItemResponse toResponse(Item item) {
+    public ItemResponse toResponse(Item item) {
 
         ItemResponse response = new ItemResponse();
 
@@ -24,12 +29,11 @@ public final class ItemMapper {
             response.setVariants(
                     item.getVariants()
                             .stream()
-                            .map(VariantMapper::toResponse)
-                            .collect(Collectors.toList())
+                            .map(variantMapper::toResponse)
+                            .toList()
             );
         }
 
         return response;
     }
-
 }
